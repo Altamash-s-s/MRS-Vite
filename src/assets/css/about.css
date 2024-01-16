@@ -1,0 +1,578 @@
+
+/* Spotlight section css --------------------------------------------------------------------------------- */
+
+.section.inner-spotlight-sec {
+    background: linear-gradient(90deg, rgba(0, 20, 71, 0.39) 15.93%, rgba(0, 20, 71, 0.00) 87.44%);
+    background-color: #452ECD;
+    margin-top: -165px;
+    position: relative;
+    height: 718px;
+}
+
+.inner-spot-clm-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    width: 35%;
+}
+
+.inner-spot-clm-2 img {
+    border-radius: 42px;
+}
+
+.inner-img-sec {
+    position: absolute;
+    right: -35px;
+    top: 140px;
+}
+
+.inner-spot-clm-1 h1 {
+    margin-bottom: 20px;
+}
+
+.inner-spot-clm-1 p {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.inner-spt-btn {
+    font-family: "tablet-gothic-wide", sans-serif;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+@media screen and (min-width:1024px) and (max-width: 1100px) {
+    .inner-spot-clm-2 img {
+        width: 80%;
+    }
+        
+    .section.inner-spotlight-sec {
+        height: 650px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .inner-spot-clm-1 {
+        justify-content: center; 
+        padding-top: 50px;
+    }
+    
+    .inner-img-sec {
+        right: -35;
+        text-align: right;
+    }    
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    .section.inner-spotlight-sec {
+        height: 551px;
+    }
+    .inner-spot-clm-2 img {
+        width: 60%;
+    }
+    .inner-spot-clm-1 p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+    .section.inner-spotlight-sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .section.inner-spotlight-sec .main-container {
+        padding-top: 20px !important;
+    }
+    
+    .inner-img-sec {
+        position: relative;
+        right: auto;
+        top: auto;
+        left: auto;
+    }
+    
+    .inner-spot-clm-2 img, .inner-spot-clm-1 {
+        width: 100%;
+    }
+    .inner-spot-clm-1 p {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+/* About section css --------------------------------------------------------------------------------- */
+
+.abt_us-section {
+    background-color: #fff;
+}
+
+.img-clm img {
+    max-width: 470px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.contnt-clm h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.abt-ttl {
+    margin-bottom: 30px;
+}
+
+
+
+/* Mission section css --------------------------------------------------------------------------------- */
+
+
+.vision-section {
+    background-image: url(../img/about_img/vission_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mission-section {
+    background-image: url(../img/about_img/Mission.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.value-section {
+    background-image: url(../img/about_img/Value.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.VMV-ttl {
+    color:#FFF;    
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 85px;
+    letter-spacing: -6px;
+}
+
+.txt-shadow {
+    text-shadow: 0px 0px 20px rgb(252 123 18 / 67%);
+}
+
+.VMV-bx {
+    gap: 35px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+.VMV-bx p {
+    margin: 0px;
+    max-width: 340px;
+}
+
+.line-img {
+    padding: 60px 0px;
+}
+
+
+/* History section css --------------------------------------------------------------------------------- */
+    
+
+.history-section {
+    background-image: url(../img/about_img/history_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.history-section:after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(-90deg, #0F0F73 15.93%, rgba(16, 16, 115, 0.00) 87.44%);
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 9;
+}
+
+.history-section .swiper {
+    overflow: visible;
+    margin-top: 100px;
+}
+.year {
+    position: relative;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 40px;
+}
+
+.inner-history-dv:before {
+    content: '';
+    position: absolute;
+    top: -36px;
+    left: -1px;
+    border: 4px solid #0F0F73;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+}
+
+.inner-history-dv {
+    position: relative;
+    padding-right: 70px;
+    /* width: 241px; */
+}
+
+.year h3 {
+    transform: rotate(90deg);
+    transform-origin: 50% 0;
+    display: inline-block;
+    color: #FC7B12;
+    font-family: Normalidad;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.inner-history-dv h2, .inner-history-dv p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.inner-history-dv h2 {
+    font-weight: 700;
+}
+
+.inner-history-dv p {
+    font-weight: 400;
+}
+
+.history-pegination-arrow {
+    position: absolute;
+    right: 60px;
+    top: 41%;
+    z-index: 99;
+}
+
+
+/* Team section css --------------------------------------------------------------------------------- */
+
+
+.team-section {
+    background-color: #fff;
+}
+
+.name-bx {
+    justify-content: space-between;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+h2.team-ttl {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.72px;
+    margin-bottom: 40px;
+}
+
+.tPosition {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-top: 18px;
+}
+
+.tNAme {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+.team-bx img {
+    border-radius: 10px;
+}
+
+
+.team-container1 {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.team-container2 {
+    display: flex;
+    justify-content: center;
+}
+.see-all {
+    cursor: pointer;
+    position: relative;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.opacity-30 {
+    opacity: 0.3;
+}
+
+.opacity-100 {
+    opacity: 1;
+}
+
+
+
+
+/* WHY MRS section css --------------------------------------------------------------------------------- */
+
+.whyMrs-section {
+    background-color: #E6E6E6;
+}
+
+.tabs{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+.tab-link {
+	margin: 0 25px;
+	list-style: none;
+	padding: 7px 0px;
+	cursor: pointer;
+	font-weight: 700;
+	transition: all ease 0.5s;
+	border-bottom: solid 1px rgba(255,255,255,0.0);
+	letter-spacing: 1px;
+    color: #0A0A0A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.tab-link:first-child {
+    margin-left: 0px;
+}
+
+.tab-link:hover {
+	color: #0037ff52;
+	border-color: #0A0A0A;
+}
+
+.tab-link.active{
+	color: #0038FF;
+	border-color: #0A0A0A;
+}
+
+.content-wrapper {
+	padding: 20px 0px;
+}
+.tab-content {
+	display: none;
+	color: #888;
+	font-weight: 300;
+	font-size: 15px;
+	opacity: 0;
+	transform: translateY(15px);
+	animation: fadeIn 0.5s ease 1 forwards;
+}
+.tab-content.active {
+	display: block;
+}
+
+@keyframes fadeIn {
+	100% {
+		opacity: 1;
+		transform: none;
+		}
+}
+
+.tabs li:before, .tabs li:after {
+    display:none;
+}
+
+.why-mrs-txt {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+ 
+.whyMrs-section .row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    padding-bottom: 25px;
+    margin-top: -90px;
+}
+
+.whyMRS-container2 {
+    padding-top: 0px;
+}
+
+.whyMRS-container1 {
+    padding-bottom: 20px;
+}
+
+.tab-content p {
+    width: 46%;
+    display: inline-block;
+    color: #0a0a0a;
+}
+
+.tab-content p:last-child {
+    padding-left: 35px;
+}
+
+.tab-content p:first-child {
+    padding-right: 35px;
+}
+
+
+
+/* Awards section css --------------------------------------------------------------------------------- */
+
+
+.awards-section {
+    background: #0F0F73; 
+    position: relative;
+    overflow: hidden;
+}
+
+.awards-section:after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(-90deg, #0F0F73 15.93%, rgba(16, 16, 115, 0.00) 87.44%);
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 9;
+}
+
+.awrd-ttl {
+    position: absolute;
+    left: 0;
+    top: auto;
+    background-color: #0f0f73;
+    z-index: 9;
+}
+
+.awrd-ttl:after {
+    position: absolute;
+    background: linear-gradient(1deg, #1788D6 20.3%, #E48A36 65.25%);
+    content: '';
+    top: auto;
+    left: auto;
+    width: 20px;
+    height: 100%;
+    animation: gradient 1s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.awrds-sub-ttl {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 420px;
+    margin-bottom: 55px;
+}
+
+.award-bx img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.awards-section .swiper {
+    overflow: visible;
+}
+
+.awards-pegination-arrow {
+    position: absolute;
+    right: 60px;
+    top: 35%;
+    z-index: 99;
+}
+
+.award-bx h2 {
+    color: rgba(238, 143, 0, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.award-bx p {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.awards-section .swiper-slide.swiper-slide-next p {
+    color: #fff;
+}
+.awards-section .swiper-slide.swiper-slide-next h2 {
+    color: #FC7B12;
+}
